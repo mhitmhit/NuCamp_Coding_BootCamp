@@ -1,6 +1,4 @@
-
 x = 0
-
 while x < 11:
     if x < 5 and x != 0:
         print(x)
