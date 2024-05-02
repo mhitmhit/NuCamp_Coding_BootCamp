@@ -15,3 +15,6 @@ print(value4)
 
 value5 = pow(2,3)
 print(value5)
+
+value6 = str(1223)
+print(type(value6))
