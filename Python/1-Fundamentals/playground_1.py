@@ -13,8 +13,12 @@
 
 # print(testFunction(1)+testFunction(2))
 
-reverse = lambda text: "".join(f"{(text[-i-1])}" for i in range(len(text)))
+# reverse = lambda text: "".join(f"{(text[-i-1])}" for i in range(len(text)))
 
 
-name = input("What is your name? ")
-print("Your name reversed is:", reverse(name))
+# name = input("What is your name? ")
+# print("Your name reversed is:", reverse(name))
+
+name = "yassine"
+for pat in range(1,5):
+    print(pat)

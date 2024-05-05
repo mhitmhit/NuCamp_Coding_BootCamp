@@ -1,7 +1,7 @@
 MYSTRING = "set in global scope"
 
 def main():
-    # global MYSTRING
+    global MYSTRING
     MYSTRING = "Set in local scope"
 
 
