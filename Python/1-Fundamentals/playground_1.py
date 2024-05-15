@@ -19,6 +19,13 @@
 # name = input("What is your name? ")
 # print("Your name reversed is:", reverse(name))
 
-name = "yassine"
-for pat in range(1,5):
-    print(pat)
+# name = "yassine"
+# for pat in range(1,5):
+#     print(pat)
+
+
+my_string = "giraffe"
+
+print(my_string[-0])
+print(my_string[0])
+print(my_string[0:90])

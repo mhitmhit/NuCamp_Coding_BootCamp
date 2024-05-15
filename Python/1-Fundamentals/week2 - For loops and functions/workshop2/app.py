@@ -29,8 +29,7 @@ while(True):
 
 while(True):
     atm_menu(name)
-    option = input("Choose an option: ")
-    option = int(option)
+    option = int(input("Choose an option: "))
     if (option == 1):
         account.show_balance(balance)
     elif (option == 2):
@@ -42,5 +41,3 @@ while(True):
     elif (option == 4):
         account.logout(name)
         break
-    else:
-        continue
