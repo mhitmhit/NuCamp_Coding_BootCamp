@@ -53,7 +53,7 @@ CREATE TABLE suppliers(
 -- create customer table
 CREATE TABLE customers(
 	id SERIAL,
-	customer_name TEXT NOT NULL,
+	customer_name TEXT NOT NULL, -- name TEXT NOT NULL, (naming convention)
 	PRIMARY KEY (id)
 );
 
@@ -184,4 +184,4 @@ REFERENCES territories (id);
 ALTER TABLE offices
 ADD CONSTRAINT fk_offices_territories
 FOREIGN KEY (territory_id)
-REFERENCES territories;
+REFERENCES territories; -- REFERENCES territories(id); (specify the column you want to reference)
